@@ -760,7 +760,7 @@ ol{
   padding: 15vmin;
 }
 
-.video{
+.menuBox{
   width: 50%;
 }
 
@@ -796,5 +796,20 @@ video{
   font-size: 5vmin;
   font-weight: 600;
   margin-bottom: 5vmin;
+}
+.menuBox>.swiffy-slider>.slider-container>li>img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+
+}
+
+
+#menuPage{
+  background-image: url(#);
+  background-color: #FFF1F1;
+
 }
 
