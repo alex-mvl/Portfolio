@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Kavivanar&family=Quicksand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
 
 body {
   margin: 0;
@@ -478,7 +478,7 @@ a:hover{
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-column-gap: 2vmin;
-  grid-row-gap: 6vmin;
+  grid-row-gap: 1vmin;
   padding: 20vmin 10vmin 5vmin 10vmin;
   position: relative;
 
@@ -589,6 +589,45 @@ a:hover{
 
 /*PawPal*/
 
+.pawpalHeading{
+  background-color: #C7E1FF;
+  background-image: url(pawpalFrame.png) ;
+  background-repeat: no-repeat;
+  background-size: contain  ;
+  height: 45vmax;
+  background-attachment: fixed;
+
+}
+
+.contentWrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10vmin;
+  padding-top: 20vmin;
+
+}
+
+.content{
+  width: 50%;
+  
+
+}
+
+.content>p{
+
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:  4vmin;
+}
+
+.content>p:first-child{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8vmin;
+}
 
 .caseGrid{
   display: grid;
@@ -598,5 +637,118 @@ a:hover{
   padding: 20vmin 10vmin 5vmin 10vmin;
   position: relative;
 
+}
+
+/*.pawpalDescriptionText{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  position: relative;
+  padding-right: 20vmin;
+
+
+
+}*/
+
+/*.pawpalDescriptionText >p{
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:  4vmin;
+}*/
+
+.descriptionRow{
+  display: flex;
+  flex-direction: column;
+}
+
+.contentColumn{
+  display: flex;
+  flex-direction: column;
+  margin: 4vmin;
+}
+.descriptionColumn  >.contentColumn{
+  margin-left: 0;
+  margin-top: 8vmin;
+}
+
+.contentColumn>p:first-child{
+  font-size: 4vmin;
+  font-weight: bold;
+  color: darkorange;
+}
+
+.descriptionBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vmin;
+}
+
+.horizontalLine{
+  margin-top: 5vmin;
+  border-bottom: 0.2vmin solid black;
+}
+
+.mainContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pawpalCase{
+  margin: 6vmin;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 5vmin;
+
+}
+
+.caseText{
+ margin: 3vmin;
+}
+span{
+  font-weight: bold;
+}
+
+.caseHeading{
+  font-size: 3.5vmin;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: 600;
+  font-style: normal;
+  margin: 3vmin;
+  margin-bottom: 0vmin;
+}
+
+ol{
+  font-size: 2.8vmin;
+
+}
+
+.interviewHeading{
+  font-weight: 600;
+}
+
+.low-fidelity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.low-fidelity>img{
+  width: 80%;
+}
+
+.low-fidelity>p{
+  color: gray;
+  font-size: 2.5vmin;
 }
 
