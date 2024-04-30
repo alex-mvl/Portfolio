@@ -760,6 +760,10 @@ ol{
   padding: 15vmin;
 }
 
+.video{
+  width: 50%;
+}
+
 .menuBox{
   width: 50%;
 }
@@ -807,9 +811,29 @@ video{
 }
 
 
-#menuPage{
-  background-image: url(#);
-  background-color: #FFF1F1;
 
+/*CHAMBER WEBSITE*/
+
+.chamberBox{
+  width: 50%;
+  margin-top: 6vmin;
+}
+
+#chamberIMG{
+  width: 90%;
+}
+.chamberHover>img:hover{
+  transform: scale(1.03);
+}
+
+.headingTitle>p:nth-child(5){
+  font-size: 3vmin;
+  font-weight: bold;
+  background-image: linear-gradient(to right, darkblue, hotpink);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
